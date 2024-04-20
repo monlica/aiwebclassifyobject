@@ -6,7 +6,7 @@ import google.generativeai as genai
 genai.configure(api_key="AIzaSyCJA1hPNHpbNmU89AAiyAqTqPhZ7Pa_1Dk")
 model = genai.GenerativeModel("gemini-pro-vision")
 
-st.title("สัตว์ สิ่งของ ผลไม้ ดอกไม้")
+st.title("การแยกประเภทของ สัตว์ สิ่งของ ผลไม้ ดอกไม้")
 ch = st.selectbox("เลือกหมวด",
                  ("สัตว์","สิ่งของ","ผลไม้","ดอกไม้"))
                   
